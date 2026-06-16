@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dr. Ranjana's Dental Centre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo"><i class="fa-solid fa-tooth"></i> Dr. Ranjana's</a>
+            <nav>
+                <div class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meet-the-team.html">Meet the Team</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="services.html">Services <i class="fa-solid fa-chevron-down" style="font-size: 0.8rem; margin-left: 5px;"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="aligners-braces.html">Aligners & Braces</a>
+                            <a href="implants.html">Implants</a>
+                            <a href="pediatric-dentistry.html">Pediatric Dentistry</a>
+                            <a href="root-canal-treatment.html">Root Canal Treatment</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section" style="background: var(--gradient-bg); padding-top: 120px; text-align: center;">
+        <div class="container">
+            <h1 class="section-title">Contact Us</h1>
+            <p class="section-subtitle">We are here to help you achieve your best smile. Reach out to us for appointments or inquiries.</p>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: start;">
+                <div>
+                    <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--secondary-color);">Get In Touch</h2>
+                    <p style="margin-bottom: 2rem; color: var(--text-muted); font-size: 1.1rem;">Whether you have a question about our services, want to know more about our treatments, or need to book an appointment, our team is ready to answer all your questions.</p>
+                    
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: var(--gradient-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color); font-size: 1.2rem; margin-right: 1rem;">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--secondary-color); font-size: 1.1rem;">Phone</h4>
+                            <p style="color: var(--text-muted); font-size: 1.1rem;">075982 61010</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: var(--gradient-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color); font-size: 1.2rem; margin-right: 1rem;">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--secondary-color); font-size: 1.1rem;">Location</h4>
+                            <p style="color: var(--text-muted); font-size: 1.1rem;">Dharmapuri, Tamil Nadu</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background: var(--gradient-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color); font-size: 1.2rem; margin-right: 1rem;">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--secondary-color); font-size: 1.1rem;">Working Hours</h4>
+                            <p style="color: var(--text-muted); font-size: 1.1rem;">Mon - Sat: 9:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: white; padding: 3rem; border-radius: 20px; box-shadow: var(--shadow-lg);">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--secondary-color);">Send a Message</h3>
+                    <form style="display: flex; flex-direction: column; gap: 1.5rem;" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-main); font-weight: 500;">Your Name</label>
+                            <input type="text" placeholder="John Doe" style="width: 100%; padding: 0.8rem; border: 1px solid #e2e8f0; border-radius: 8px; font-family: var(--font-body); outline: none;" required>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-main); font-weight: 500;">Phone Number</label>
+                            <input type="tel" placeholder="+91" style="width: 100%; padding: 0.8rem; border: 1px solid #e2e8f0; border-radius: 8px; font-family: var(--font-body); outline: none;" required>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-main); font-weight: 500;">Message</label>
+                            <textarea rows="4" placeholder="How can we help you?" style="width: 100%; padding: 0.8rem; border: 1px solid #e2e8f0; border-radius: 8px; font-family: var(--font-body); outline: none;" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><h3 class="footer-heading"><i class="fa-solid fa-tooth" style="margin-right: 10px;"></i>Dr. Ranjana's</h3><p style="color: var(--text-muted); margin-bottom: 1rem;">Trusted family dentistry in Dharmapuri providing expert care since 1977.</p></div>
+                <div><h3 class="footer-heading">Quick Links</h3><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="meet-the-team.html">Meet the Team</a></li><li><a href="services.html">All Services</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+                <div><h3 class="footer-heading">Contact Info</h3><ul class="footer-links"><li style="color: var(--text-muted);"><i class="fa-solid fa-phone" style="margin-right: 10px; color: var(--primary-color);"></i> 075982 61010</li><li style="color: var(--text-muted);"><i class="fa-solid fa-location-dot" style="margin-right: 10px; color: var(--primary-color);"></i> Dharmapuri, Tamil Nadu</li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2026 Dr. Ranjana's Dental Centre. All Rights Reserved.</p><p style="margin-top: 5px;">Designed with <i class="fa-solid fa-heart" style="color: #ef4444;"></i> by Hemu</p></div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
